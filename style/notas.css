@@ -1,0 +1,55 @@
+[data-form] {
+  margin-left: 80px;
+  margin-top: 40px;
+}
+[data-form] label {
+  color: #012;
+  font-size: 1.5rem;
+  font-weight: 400;
+}
+
+[data-form] label:nth-child(n + 2) {
+  display: inline-block;
+  margin-top: 20px;
+  margin-bottom: 10px;
+}
+[data-form] input {
+  display: block;
+  background: #e9e9f5;
+  outline: none;
+  border: #f2f9fa 2px solid;
+  border-radius: 3px;
+  width: 200px;
+  height: 30px;
+}
+[data-form] input:hover,
+[data-form] input:focus {
+  border-color: #012;
+}
+[data-form] button {
+  padding: 20px;
+  font-family: "Lato";
+  font-weight: bold;
+  color: #f2f9fa;
+  background: #012;
+  border: none;
+  border-radius: 3px;
+  font-size: 1rem;
+  text-transform: uppercase;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+[data-form] .frase-media {
+  color: #f2f9fa;
+  font-weight: 400;
+  padding: 10px;
+  font-size: 1rem;
+  border-radius: 3px;
+  display: inline-block;
+}
+
+[data-form] .media {
+  padding: 10px;
+  color: #f2f9fa;
+  display: inline-block;
+}

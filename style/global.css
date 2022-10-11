@@ -1,0 +1,21 @@
+@import "./notas.css";
+
+* {
+  margin: 0px;
+}
+body {
+  color: #f2f9fa;
+  font-family: "Lato";
+}
+header {
+  height: 60px;
+  display: flex;
+  align-items: center;
+  background: #29b;
+}
+header h1 {
+  font-size: 1.5rem;
+  margin-left: 60px;
+  color: #f2f9fa;
+  font-weight: bold;
+}
